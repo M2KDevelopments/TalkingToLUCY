@@ -200,7 +200,7 @@ int main() {
 			}else if (ans == 2){
 				ans = askQuestion("Did you just say you didn't trust me?","Yes, I did.","No, I didn't.");
 				if(ans==1){
-					ans = askQuestion("Oh, so you think can openly cheat on me?","Who said anything about cheating?","I guess.");
+					ans = askQuestion("Oh, so you think you can openly cheat on me?","Who said anything about cheating?","I guess.");
 					if(ans==1){
 						ans = askQuestion("Don't play dumb with me "+ name + ". Jerk! "  ,"Sorry.","Go no one care about you!");
 					}else if (ans == 2){
